@@ -36,6 +36,8 @@ var Appointments = React.createClass({
           appointment_time={this.state.appointment_time}
           onUserInput={this.handleUserInput}
           onFormSubmit={this.handleFormSubmit} />
+        <br />
+        <h2>Appointments</h2>
         <AppointmentsList appointments={this.state.appointments} />
       </div>
     )
